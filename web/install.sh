@@ -48,7 +48,7 @@ FOLDER="ASWCP-Web"
 DL=0
 
 if [ -n "$GIT_BIN" ]; then
-    git clone git@github.com:AnzenSolutions/ASWCP-Web.git
+    git clone git://github.com/AnzenSolutions/ASWCP-Web.git
     DL=2
 elif [ -n "$WGET_BIN" ]; then
     wget --no-check-certificate "$URL"
