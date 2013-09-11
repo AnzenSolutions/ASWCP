@@ -20,3 +20,17 @@ row.
 Both the web panel and daemon require Python and come with a requirements.txt file that will be 
 read by pip (if you use the appropriate install script) and install the needed packages.  Both were 
 also created using virtualenv and is highly recommended you use it as well.
+
+Installing Web Panel
+--------------------
+Run this command:
+```
+wget -O - -o /dev/null https://raw.github.com/AnzenSolutions/ASWCP/master/web/install.sh | sh -
+```
+
+Installing Daemon
+------------------
+Run this command:
+```
+wget -O - -o /dev/null https://raw.github.com/AnzenSolutions/ASWCP/master/daemon/install.sh | sh -
+```
